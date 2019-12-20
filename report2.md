@@ -45,6 +45,6 @@ IMG6 = ORG>240;
 IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
-8諧調画像にした結果を図３に示す。
+8諧調画像にした結果を図4に示す。
 ![原画像](https://github.com/moe-ito/lecture_image_processing/blob/master/image/kadai2写真/4.png)  
-図6 8諧調画像
+図4 8諧調画像
