@@ -7,7 +7,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す。
 
-![原画像](https://github.com/moe-ito/lecture_image_processing/blob/master/image/kadai2写真/0.png)  
+![原画像](https://github.com/moe-ito/lecture_image_processing/blob/master/image/kadai2写真/pokemon.png)  
 図1 原画像
 
 以下のプログラムにより2諧調画像にしたのち、グレースケールの画像を出力する。
