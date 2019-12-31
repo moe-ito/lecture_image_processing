@@ -24,6 +24,7 @@ imagesc(IMG); colormap(gray); colorbar;
 以下のプログラムによりディザ法による2値化をしたのち、グレースケールの画像を出力する。
 
 IMG = dither(ORG); 
+
 imagesc(IMG); colormap(gray); colorbar; 
 
 をディザ法による2値化した結果を図３に示す。
