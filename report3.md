@@ -3,6 +3,7 @@
 標準画像「pokemon」を原画像とする。この画像は縦736画像，横1026画素によるディジタルカラー画像である。
 
 ORG=imread('https://github.com/moe-ito/lecture_image_processing/blob/master/image/kadai2写真/pokemon.png'); % 原画像の入力  
+
 imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す。
@@ -13,6 +14,7 @@ imagesc(ORG); axis image; % 画像の表示
 以下のプログラムにより輝度値が64以上の画素を1、その他を0に変換したのち、グレースケールの画像を出力する。
 
 IMG = ORG > 64; 
+
 imagesc(IMG); colormap(gray); colorbar;
 
 閾値を64にした結果を図２に示す。
@@ -23,6 +25,7 @@ imagesc(IMG); colormap(gray); colorbar;
 以下のプログラムにより輝度値が96以上の画素を1、その他を0に変換したのち、グレースケールの画像を出力する。
 
 IMG = ORG > 96;
+
 imagesc(IMG); colormap(gray); colorbar;
 
 閾値を96にした結果を図３に示す。
@@ -33,9 +36,11 @@ imagesc(IMG); colormap(gray); colorbar;
 以下のプログラムにより輝度値が128以上の画素を1、その他を0に変換したのち、グレースケールの画像を出力する。
 
 IMG = ORG > 128;
+
 imagesc(IMG); colormap(gray); colorbar;
 
 閾値を128にした結果を図4に示す。
+
 ![原画像](https://github.com/moe-ito/lecture_image_processing/blob/master/image/kadai3%E5%86%99%E7%9C%9F/3.png)  
 図4 閾値が128の時の画像
 
